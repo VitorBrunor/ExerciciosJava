@@ -1,3 +1,4 @@
+package repeteNome;
 import java.util.Scanner;
 
 public class nome {
@@ -6,11 +7,10 @@ public class nome {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Entre com o nome: ");
 		String nome = scanner.next();
-		vitor vitor = new vitor(nome);
+		pessoa vitor = new pessoa(nome);
 		
 		for(i = 0; i < 100; i++) {
 			System.out.println(vitor.nome);
 		}
-	
 	}
 }

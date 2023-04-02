@@ -1,5 +1,6 @@
+package repeteNome;
 
-public class vitor {
+public class pessoa {
 	String nome;
 	
 	public String getNome() {
@@ -9,7 +10,7 @@ public class vitor {
 		this.nome = nome;
 	}
 	
-	public vitor(String nome) {
+	public pessoa(String nome) {
 		this.nome = nome;
 		
 	}
